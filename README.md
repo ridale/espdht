@@ -55,9 +55,8 @@ sensor:
 
 ## Notes on cheap ESP8266
 
-```txt
-ESP-01 (blue PCB) vs ESP-01S (black PCB)
-- 512kB flash vs 1MB flash
-- Red power LED vs -No- power LED
-- Blue LED on TX vs Blue LED on GPIO2 (low = on)
-```
+| ESP-01 (blue PCB) | ESP-01S (black PCB) |
+| ------------- | ------------- |
+| 512kB flash | 1MB flash |
+| Red power LED | **No** power LED |
+| Blue LED on TX | Blue LED on GPIO2 (low = on) |
