@@ -44,7 +44,7 @@ mqtt:
 ```yaml
 sensor:
   - platform: dht
-    pin: D2
+    pin: 13
     temperature:
       name: "Living Room Temperature"
     humidity:
