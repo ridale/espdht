@@ -60,3 +60,11 @@ sensor:
 | 512kB flash | 1MB flash |
 | Red power LED | **No** power LED |
 | Blue LED on TX | Blue LED on GPIO2 (low = on) |
+
+## References
+
+### Door reed switch
+
+* <https://community.home-assistant.io/t/reed-door-sensor-battery-powered-esp32-with-esphome-yaml/70762>
+* <https://gist.github.com/bl0rp/6769b7b9d7bd410c1a41408bc0e087b8>
+* <https://github.com/bl0rp/Home-AssistantConfig/blob/master/packages/esp32/esp32_1_doorsensor_elw.yaml>

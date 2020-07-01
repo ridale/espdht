@@ -11,10 +11,6 @@ wifi:
 # Enable logging
 logger:
 
-# Enable Home Assistant API
-api:
-  password: !secret api_password
-
 # Enable over the air updates
 ota:
   password: !secret ota_password
@@ -24,6 +20,7 @@ mqtt:
   username: !secret mqtt_username
   password: !secret mqtt_password
   port: !secret mqtt_port
+
   # Set to true when finished testing to set MQTT retain flag
   discovery_retain: false
 sensor:
