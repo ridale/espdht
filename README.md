@@ -1,4 +1,4 @@
-# README
+# ESP-DHT
 
 This is my project to get some temperature humidity sensors setup at home.
 
